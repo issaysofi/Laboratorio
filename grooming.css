@@ -1,0 +1,85 @@
+body {
+    background-color: #F4ECD9;
+    @font-face {
+        font-family: 'butler light';
+        src: url(Butler_Light.otf);
+    }
+    @font-face {
+        font-family: 'butler bold';
+        src: url(Butler_Bold.otf);
+    }
+
+}
+
+header {
+    background-color:#CBCD9E;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.servicio {
+    width: calc(33.333% - 20px);
+    /* Calcula el ancho del cuadro */
+    background-color: #FAD9C8;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    text-align: center;
+    /* Centra el contenido */
+    transition: transform 0.3s ease;
+}
+
+.servicio:hover {
+    transform: scale(1.05);
+    /* Agranda el cuadro al hacer hover */
+}
+
+.servicio img {
+    width: 50px;
+    /* Tamaño del icono */
+    margin-bottom: 10px;
+    /* Espacio debajo del icono */
+}
+
+.servicio h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.servicio p {
+    font-size: 16px;
+}
+
+.precio {
+    font-weight: bold;
+}
+
+.destacado {
+    color:#CBCD9E;
+    text-decoration: underline;
+}
+
+button {
+    border-radius: 100px;
+    background-color: #FAD9C8;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 25%;
+    margin: 30px auto 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
